@@ -8,7 +8,7 @@ namespace Simple
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Expr1.Method();
 
@@ -22,11 +22,9 @@ namespace Simple
 
             Expr6.Method(Ab: (1, 4), aB: (3, 6), c: (5, 6));
 
-            //Expr7.Method();
+            Expr7.Method(k: 1, c: 0);
 
-            //Expr8.Method();
-
-            //Console.ReadKey();
+            Expr8.Method(A: 1, B: -1, C: 0, (x: 0, y: 2));
         }
     }
 }
