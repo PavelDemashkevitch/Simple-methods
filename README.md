@@ -1,1 +1,1 @@
-# Single-methods
+# Simple-methods
